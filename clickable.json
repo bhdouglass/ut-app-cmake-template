@@ -1,8 +1,4 @@
 {
-  "package": "app.bhdouglass",
-  "app": "app",
-  "sdk": "ubuntu-sdk-15.04",
-  "arch": "armhf",
   "template": "cmake",
   "kill": "qmlscene"
 }

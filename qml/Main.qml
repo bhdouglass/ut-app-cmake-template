@@ -13,7 +13,7 @@ MainView {
     height: units.gu(75)
 
     Label {
-        text: 'Hello World!'
+        text: i18n.tr('Hello World!')
     }
 
     Component.onCompleted: Template.test()
