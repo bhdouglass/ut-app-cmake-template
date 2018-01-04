@@ -1,5 +1,5 @@
 [Desktop Entry]
-_Name=App
+_Name={{cookiecutter.title}}
 Exec=qmlscene qml/Main.qml
 Icon=assets/logo.png
 Terminal=false

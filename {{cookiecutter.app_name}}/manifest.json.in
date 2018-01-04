@@ -1,0 +1,15 @@
+{
+    "name": "{{cookiecutter.app_full_name}}",
+    "description": "{{cookiecutter.description}}",
+    "architecture": "@CLICK_ARCH@",
+    "title": "{{cookiecutter.title}}",
+    "hooks": {
+        "{{cookiecutter.app_name}}": {
+            "apparmor": "{{cookiecutter.app_name}}.apparmor",
+            "desktop":  "{{cookiecutter.app_name}}.desktop"
+        }
+    },
+    "version": "{{cookiecutter.version}}",
+    "maintainer": "{{cookiecutter.maintainer_name}} <{{cookiecutter.maintainer_email}}>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}

@@ -1,7 +1,7 @@
 include(FindGettext)
 find_program(GETTEXT_XGETTEXT_EXECUTABLE xgettext)
 
-set(DOMAIN ${PROJECT_NAME})
+set(DOMAIN ${FULL_PROJECT_NAME})
 set(POT_FILE ${DOMAIN}.pot)
 file(GLOB PO_FILES *.po)
 
@@ -26,8 +26,7 @@ add_custom_target(${POT_FILE} ALL
 foreach(PO_FILE ${PO_FILES})
     get_filename_component(LANG ${PO_FILE} NAME_WE)
     gettext_process_po_files(${LANG} ALL PO_FILES ${PO_FILE})
-    string(REPLACE ${PROJECT_NAME}- "" SHORT_LANG ${LANG})
-    set(INSTALL_DIR ${CMAKE_INSTALL_LOCALEDIR}/share/locale/${SHORT_LANG}/LC_MESSAGES)
+    set(INSTALL_DIR ${CMAKE_INSTALL_LOCALEDIR}/share/locale/${LANG}/LC_MESSAGES)
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${LANG}.gmo
             DESTINATION ${INSTALL_DIR}
             RENAME ${DOMAIN}.mo)

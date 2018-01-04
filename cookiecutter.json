@@ -1,0 +1,11 @@
+{
+    "title": "App Title",
+    "description": "A short description of your app",
+    "app_name": "appname",
+    "app_full_name": "appname.yourname",
+    "plugin_name": "PluginName",
+    "version": "1.0.0",
+    "maintainer_name": "Your FullName",
+    "maintainer_email": "email@domain.org",
+    "open_source_license": ["GNU General Public License v3", "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "Not open source"]
+}

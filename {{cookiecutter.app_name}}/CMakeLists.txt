@@ -1,4 +1,4 @@
-project(indicator-weather C CXX)
+project({{cookiecutter.app_name}} C CXX)
 cmake_minimum_required(VERSION 3.0.0)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
@@ -19,7 +19,8 @@ execute_process(
 
 set(QT_IMPORTS_DIR "lib/${ARCH_TRIPLET}")
 
-set(PROJECT_NAME "app")
+set(PROJECT_NAME "{{cookiecutter.app_name}}")
+set(FULL_PROJECT_NAME "{{cookiecutter.app_full_name}}")
 set(CMAKE_INSTALL_PREFIX /)
 set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)

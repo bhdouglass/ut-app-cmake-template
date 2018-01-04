@@ -1,11 +1,21 @@
-# App template for Ubuntu Touch
+# Ubuntu Touch CMake App Template
 
-A simple template to make it easier to create the structure for a new Ubuntu Touch
-app.
+A template to generate apps for Ubuntu Touch that are C++ and QML apps using
+CMake and clicakble to compile it.
+
+## Usage
+
+* Install the needed tools
+    * [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
+    * [clickable](http://clickable.bhdouglass.com/en/latest/)
+* Generate the project
+    * Run `cookiecutter gh:bhdouglass/ut-app-cmake-template`
+* Go into the directory for your new project
+* Run `clickable` to compile and install your new app!
 
 ## License
 
-Copyright (C) 2016 [Brian Douglass](http://bhdouglass.com/)
+Copyright (C) 2018 [Brian Douglass](http://bhdouglass.com/)
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3, as published
 by the Free Software Foundation.
