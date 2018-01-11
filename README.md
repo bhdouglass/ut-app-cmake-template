@@ -1,9 +1,14 @@
 # Ubuntu Touch CMake App Template
 
 A template to generate apps for Ubuntu Touch that are C++ and QML apps using
-CMake and clicakble to compile it.
+CMake and [clickable](http://clickable.bhdouglass.com/en/latest/) to compile it.
 
 ## Usage
+
+To get started with this template, simply run `clickable init` and choose the
+'C++/QML App (built using CMake)' option.
+
+### OR
 
 * Install the needed tools
     * [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
