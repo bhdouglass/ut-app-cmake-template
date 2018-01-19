@@ -1,5 +1,5 @@
 {
-    "name": "{{cookiecutter.app_full_name}}",
+    "name": "{{cookiecutter.app_full_name|lower}}",
     "description": "{{cookiecutter.description}}",
     "architecture": "@CLICK_ARCH@",
     "title": "{{cookiecutter.title}}",

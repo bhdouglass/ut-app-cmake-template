@@ -6,7 +6,7 @@ import {{cookiecutter.plugin_name}} 1.0
 MainView {
     id: root
     objectName: 'mainView'
-    applicationName: '{{cookiecutter.app_full_name}}'
+    applicationName: '{{cookiecutter.app_full_name|lower}}'
     automaticOrientation: true
 
     width: units.gu(45)
