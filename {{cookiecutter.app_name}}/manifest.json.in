@@ -11,5 +11,5 @@
     },
     "version": "{{cookiecutter.version}}",
     "maintainer": "{{cookiecutter.maintainer_name}} <{{cookiecutter.maintainer_email}}>",
-    "framework" : "ubuntu-sdk-15.04.6"
+    "framework" : "ubuntu-sdk-15.04.5"
 }
