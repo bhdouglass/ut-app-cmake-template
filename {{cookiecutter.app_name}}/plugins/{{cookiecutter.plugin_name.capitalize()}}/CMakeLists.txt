@@ -1,5 +1,5 @@
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(PLUGIN "{{cookiecutter.plugin_name}}")
+set(PLUGIN "{{cookiecutter.plugin_name.capitalize()}}")
 
 set(
     SRC

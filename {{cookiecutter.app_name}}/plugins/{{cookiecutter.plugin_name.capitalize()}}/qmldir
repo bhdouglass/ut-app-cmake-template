@@ -1,0 +1,2 @@
+module {{cookiecutter.plugin_name.capitalize()}}
+plugin {{cookiecutter.plugin_name.capitalize()}}

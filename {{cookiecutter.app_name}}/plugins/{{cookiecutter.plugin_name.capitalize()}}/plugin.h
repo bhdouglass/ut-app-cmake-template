@@ -3,7 +3,7 @@
 
 #include <QQmlExtensionPlugin>
 
-class {{cookiecutter.plugin_name}}Plugin : public QQmlExtensionPlugin {
+class {{cookiecutter.plugin_name.capitalize()}}Plugin : public QQmlExtensionPlugin {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface")
 

@@ -3,12 +3,12 @@
 
 #include <QObject>
 
-class {{cookiecutter.plugin_name}}: public QObject {
+class {{cookiecutter.plugin_name.capitalize()}}: public QObject {
     Q_OBJECT
 
 public:
-    {{cookiecutter.plugin_name}}();
-    ~{{cookiecutter.plugin_name}}() = default;
+    {{cookiecutter.plugin_name.capitalize()}}();
+    ~{{cookiecutter.plugin_name.capitalize()}}() = default;
 
     Q_INVOKABLE void speak();
 };

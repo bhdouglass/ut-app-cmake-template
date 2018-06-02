@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
-import {{cookiecutter.plugin_name}} 1.0
+import {{cookiecutter.plugin_name.capitalize()}} 1.0
 
 MainView {
     id: root
@@ -26,5 +26,5 @@ MainView {
         }
     }
 
-    Component.onCompleted: {{cookiecutter.plugin_name}}.speak()
+    Component.onCompleted: {{cookiecutter.plugin_name.capitalize()}}.speak()
 }
